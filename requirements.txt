@@ -1,44 +1,43 @@
-aiogram==3.22.0           # Главный фреймворк бота
-aiofiles==24.1.0          # Нужен aiogram для работы с файлами
-aiosqlite==0.22.1         # База данных SQLite (для хранения связей чатов)
-magic-filter==1.0.12      # Нужен aiogram для фильтров
-pydantic==2.11.10         # Нужен aiogram для валидации данных
-pydantic_core==2.33.2     # Ядро pydantic
-aiohttp==3.12.15          # HTTP клиент (нужен aiogram)
-yarl==1.22.0              # URL parser (нужен aiohttp)
-multidict==6.7.0          # Нужен aiohttp
-frozenlist==1.8.0         # Нужен aiohttp
-aiosignal==1.4.0          # Нужен aiohttp
-propcache==0.4.1          # Нужен aiohttp
-aiohappyeyeballs==2.6.1   # Нужен aiohttp
-attrs==25.4.0             # Зависимость aiohttp
-certifi==2025.4.26        # SSL сертификаты
-charset-normalizer==3.4.2 # Кодировки
-idna==3.10                # Доменные имена
-urllib3==2.5.0            # HTTP lib
-requests==2.32.4          # Часто используется для простых запросов (можно оставить)
-python-dotenv==1.2.1      # Для загрузки токена из .env файла (рекомендую оставить)
-colorama==0.4.6           # Цвета в консоли (для Windows, можно оставить для красоты логов)
-typing_extensions==4.15.0 # Типизация Python
-annotated-types==0.7.0    # Зависимость pydantic
-typing-inspection==0.4.2  # Зависимость pydantic
-jiter==0.12.0             # Зависимость pydantic/openai (если удалите openai, проверьте, не ругается ли pydantic. Обычно можно оставить)
-anyio==4.9.0              # Асинхронность
-sniffio==1.3.1            # Зависимость anyio
-h11==0.16.0               # Зависимость httpcore
-httpcore==1.0.9           # Зависимость httpx
-httpx==0.28.1             # HTTP клиент (используется внутри aiogram или openai)
-distro==1.9.0             # Инфо об ОС (зависимость openai/httpx)
-packaging==25.0           # Управление версиями
-setuptools==82.0.1        # Системная
-pycparser==2.23           # Зависимость cffi
-cffi==2.0.0               # Зависимость cryptography/pycares
-cryptography==46.0.7      # Шифрование (нужно для безопасных соединений)
-pycares==5.0.1            # DNS resolver (зависимость aiodns)
-aiodns==4.0.0             # Быстрый DNS (опционально, но полезен для скорости бота)
-brotli==1.2.0             # Сжатие данных
-webencodings==0.5.1       # Кодировки web
-wrapt==1.17.2             # Декораторы (зависимость Deprecated)
-Deprecated==1.2.18        # Пометки устаревания
-tqdm==4.67.1              # Прогресс бары (если не используете в своих скриптах, можно удалить, но часто тянется зависимостями)
-pywin32==311              # Только для Windows системные вызовы (оставьте, если на Windows)
+aiogram==3.22.0
+aiosqlite==0.22.1
+aiofiles==24.1.0
+magic-filter==1.0.12
+pydantic==2.11.10
+pydantic_core==2.33.2
+aiohttp==3.12.15
+yarl==1.22.0
+multidict==6.7.0
+frozenlist==1.8.0
+aiosignal==1.4.0
+propcache==0.4.1
+aiohappyeyeballs==2.6.1
+attrs==25.4.0
+certifi==2025.4.26
+charset-normalizer==3.4.2
+idna==3.10
+urllib3==2.5.0
+requests==2.32.4
+python-dotenv==1.2.1
+typing_extensions==4.15.0
+annotated-types==0.7.0
+typing-inspection==0.4.2
+anyio==4.9.0
+sniffio==1.3.1
+h11==0.16.0
+httpcore==1.0.9
+httpx==0.28.1
+cryptography==46.0.7
+cffi==2.0.0
+pycparser==2.23
+colorama==0.4.6
+aiodns==4.0.0
+pycares==5.0.1
+brotli==1.2.0
+webencodings==0.5.1
+wrapt==1.17.2
+Deprecated==1.2.18
+tqdm==4.67.1
+packaging==25.0
+setuptools==82.0.1
+distro==1.9.0
+jiter==0.12.0
