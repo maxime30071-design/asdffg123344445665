@@ -6,7 +6,7 @@ from aiogram.filters import Command
 from aiogram.types import Message
 
 # --- НАСТРОЙКИ ---
-BOT_TOKEN = "8557904029:AAFmUgU7QvEghuUtRELMQgV8kHu0Dsbfvxs"  # Вставьте токен
+BOT_TOKEN = "8557904029:AAEvrq67zmAZPcDpTgcC4GvgjkZ6UwEbKEI"  # Вставьте токен
 ADMIN_ID = 8039191347  # Вставьте ВАШ ID (число)
 
 
