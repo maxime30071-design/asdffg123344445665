@@ -9,7 +9,7 @@ from aiogram.types import Message
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 # --- НАСТРОЙКИ ---
-BOT_TOKEN = "8557904029:AAEvrq67zmAZPcDpTgcC4GvgjkZ6UwEbKEI"  # Вставьте токен
+BOT_TOKEN = ""  # Вставьте токен
 ADMIN_ID = 8039191347  # Вставьте ВАШ ID (число)
 
 
