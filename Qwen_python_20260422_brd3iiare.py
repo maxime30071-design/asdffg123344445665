@@ -5,6 +5,9 @@ from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import Command
 from aiogram.types import Message
 
+# Получаем токен из переменной окружения
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+
 # --- НАСТРОЙКИ ---
 BOT_TOKEN = "8557904029:AAEvrq67zmAZPcDpTgcC4GvgjkZ6UwEbKEI"  # Вставьте токен
 ADMIN_ID = 8039191347  # Вставьте ВАШ ID (число)
